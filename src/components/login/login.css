@@ -1,0 +1,111 @@
+.login {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 110px 0px 90px 0px;
+    background-color: #1f1f38;
+}
+
+.sub-login {
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 35%;
+    box-shadow: 5px 5px 12px 1px black;
+    padding-top: 30px;
+    border-radius: 50px;
+    background-color: #2c282860;
+}
+
+.imgs {
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.container-image {
+    background-color: var(--color-bg-variant);
+    border-radius: 150px;
+    align-items: center;
+    display: flex;
+    height: 115px;
+    width: 115px;
+}
+
+.profile {
+    /*height: 100px;
+    width: 100px;*/
+    border-radius: 130px;
+}
+
+.titulo-login {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    /*box-shadow: inset 0px 0px 25px 0px ;*/
+    /*border: none;*/
+    outline: none;
+    background-color: transparent;
+}
+
+.users {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    /*padding: 14px 0px 0px 25px;*/
+    padding-left: 25px;
+}
+
+.name {
+    padding-left: 45px;
+    font-size: 18px;
+}
+
+.second-input {
+    padding-top: 20px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #22bdff;
+    color: white;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-button {
+    padding-top: 25px;
+}
+
+.link {
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1024px){
+    header{
+        height: 68vh;
+    }
+    
+}
+
+/* ==================== MEDIA QUERYS (DISPOSITIVOS PEQUEÑOS) ==================== */
+
+@media screen and (max-width: 600px){
+    header{
+        height: 130vh;
+    }
+    .header__socials, .scroll__down{
+        display: none;
+    }
+
+}
