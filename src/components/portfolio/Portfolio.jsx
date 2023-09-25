@@ -1,17 +1,18 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio/portfolio-1.jpg'
-import IMG2 from '../../assets/portfolio/portfolio-2.jpg'
-import IMG3 from '../../assets/portfolio/portfolio-3.jpg'
-import IMG4 from '../../assets/portfolio/portfolio-4.jpg'
-import IMG5 from '../../assets/portfolio/portfolio-5.jpg'
-import IMG6 from '../../assets/portfolio/portfolio-6.jpg'
+import IMG1 from '../../assets/educacion/descarga.jpeg'
+import Certificado_Secundario from '../../assets/educacion/descarga.jpeg'
+import IMG2 from '../../assets/educacion/CCNA.png'
+import Certificado_CCNA from '../../assets/educacion/CCNA.pdf'
+import IMG3 from '../../assets/educacion/FirstCertificate.jpg'
+
+
 
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>Mi trabajo reciente</h5>
-      <h2>Portfolio</h2>
+      <h5>Mi conocimiento</h5>
+      <h2>Educación y Certificados</h2>
 
       <div className="container portfolio__container">
 
@@ -19,66 +20,39 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
           <img src={IMG1} alt="" />
           </div>
-          <h3>Este es un titulo de un item de portfolio</h3>
+          <h3>Lorem ipsum</h3>
+          <h5>Lorem ipsum.</h5>
+          <h5>Lorem ipsum.</h5>
           <div className='portfolio__item-cta'>
-          <a href="https://github.com/federey99/cv_api" className='btn'>Github</a>
-          <a href="https://dribble.com/alien_pixels" className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
+          <a href={IMG1} download="certificado_Secundario" className='btn'>Descargar</a>
+          <a href={IMG1} className='btn btn-primary' target='_blank' rel='noreferrer'>Ver</a>
           </div>
         </article>
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-          <img src={IMG2} alt="" />
+          <img src={IMG1} alt="" />
           </div>
-          <h3>Este es un titulo de un item de portfolio</h3>
+          <h3>Lorem ipsum</h3>
+          <h5>Lorem ipsum</h5>
           <div className='portfolio__item-cta'>
-          <a href="https://github.com/federey99/cv_api" className='btn'>Github</a>
-          <a href="https://dribble.com/alien_pixels" className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
+          <a href={IMG1} download="certificado_CCNA" className='btn'>Descargar</a>
+          <a href={IMG1} className='btn btn-primary' target='_blank' rel='noreferrer'>Ver</a>
           </div>
         </article>
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-          <img src={IMG3} alt="" />
+          <img src={IMG1} alt="" />
           </div>
-          <h3>Este es un titulo de un item de portfolio</h3>
+          <h3>Lorem ipsum</h3>
+          <h5>Lorem ipsum</h5>
           <div className='portfolio__item-cta'>
-          <a href="https://github.com/federey99/cv_api" className='btn'>Github</a>
-          <a href="https://dribble.com/alien_pixels" className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
+          <a href={IMG1} download="First_certificate" className='btn'>Descargar</a>
+          <a href={IMG1} className='btn btn-primary' target='_blank' rel='noreferrer'>Ver</a>
           </div>
         </article>
 
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-          <img src={IMG4} alt="" />
-          </div>
-          <h3>Este es un titulo de un item de portfolio</h3>
-          <div className='portfolio__item-cta'>
-          <a href="https://github.com/federey99/cv_api" className='btn'>Github</a>
-          <a href="https://dribble.com/alien_pixels" className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-          <img src={IMG5} alt="" />
-          </div>
-          <h3>Este es un titulo de un item de portfolio</h3>
-          <div className='portfolio__item-cta'>
-          <a href="https://github.com/federey99/cv_api" className='btn'>Github</a>
-          <a href="https://dribble.com/alien_pixels" className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-          <img src={IMG6} alt="" />
-          </div>
-          <h3>Este es un titulo de un item de portfolio</h3>
-          <div className='portfolio__item-cta'></div>
-          <a href="https://github.com/federey99/cv_api" className='btn'>Github</a>
-          <a href="https://dribble.com/alien_pixels" className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
-        </article>
         
       </div>
     </section>

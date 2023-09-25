@@ -61,8 +61,21 @@ h1{
     font-size: 2.5rem;
 }
 
+/* Esto no estaba */
+h5 {
+    font-size: 20px;
+}
+
 section{
     margin-top: 8rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h5{
+    font-size: 1.5rem;
 }
 
 section > h2, section > h5{
@@ -116,6 +129,7 @@ a:hover{
     position: absolute;
     left: -60px;
     text-align: right;
+    z-index: 10;
 }
 
 .btn-secondary:hover {
@@ -128,6 +142,12 @@ img{
     object-fit: cover;
 }
 
+.btn-etiqueta{
+    z-index: 10;
+}
+
+
+
 /* ==================== MEDIA QUERYS (DISPOSITIVOS MEDIANOS) ==================== */
 
 @media screen and (max-width: 1024px){
@@ -137,6 +157,7 @@ img{
     section{
         margin-top: 6rem;
     }
+    
 }
 
 /* ==================== MEDIA QUERYS (DISPOSITIVOS PEQUEÑOS) ==================== */
@@ -148,4 +169,8 @@ img{
     section > h2{
         margin-bottom: 2rem;
     }
+    .btn-secondary{
+        margin-top: -70px;
+    }
+    
 }

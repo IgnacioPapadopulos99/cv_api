@@ -3,11 +3,12 @@ import './footer.css'
 import {FaFacebookF} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 import {IoLogoTwitter} from 'react-icons/io'
+import {BsLinkedin} from 'react-icons/bs'
 
 const Footer = () => {
   return (
     <footer id='footer'>
-    <a href="#" className='footer__logo'>FEDERICO REY</a>
+    <a href="#" className='footer__logo'>IGNACIO PAPADOPULOS</a>
 
     <ul className='permalinks'>
       <li> <a href="#">Home</a> </li>
@@ -20,13 +21,12 @@ const Footer = () => {
     </ul>
 
     <div className="footer__socials">
-      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF/></a>
-      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FiInstagram/></a>
-      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><IoLogoTwitter/></a>
+      <a href="https://www.linkedin.com/in/ignacionpapadopulos/" target='_blank' rel='noreferrer'><BsLinkedin/></a>
+      <a href="https://www.instagram.com/nachoniicolas/" target="_blank" rel="noopener noreferrer"><FiInstagram/></a>
     </div>
 
     <div className="footer__copyright">
-      <small>&copy; Proyectos de Federico Rey. Todos los derechos reservados.</small>
+      <small>&copy; Proyectos de Ignacio Papadopulos. Todos los derechos reservados.</small>
     </div>
     </footer>
   )
